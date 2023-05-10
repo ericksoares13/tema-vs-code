@@ -1,0 +1,25 @@
+{
+  "name": "ErickTheme",
+  "displayName": "ErickTheme",
+  "description": "Um tema para mim",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericksoares13/tema-vs-code.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "ErickTheme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ErickTheme-color-theme.json"
+      }
+    ]
+  }
+}
